@@ -1,0 +1,2 @@
+{"qid":"q1","answer_facts":["RAG combine retrieval et generation"],"expected_facts":["RAG combine retrieval et generation"],"supported_facts":["RAG combine retrieval et generation"],"pred_sources":["doc-1","doc-2"],"true_sources":["doc-2"],"user_rating":4.5}
+{"qid":"q2","answer_facts":["Les embeddings servent a chercher"],"expected_facts":["Les embeddings servent a chercher"],"supported_facts":["Les embeddings servent a chercher"],"pred_sources":["doc-3"],"true_sources":["doc-3"],"user_rating":4.2}

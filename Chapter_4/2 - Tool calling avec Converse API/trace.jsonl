@@ -1,0 +1,2 @@
+{"t": 1759423980.530058, "decision": {"type": "tool_call", "tool": "get_weather", "arguments": {"city": "Paris"}}}
+{"t": 1759423980.530081, "tool_output": {"city": "Paris", "temperatureC": 22.5, "conditions": "Partly cloudy"}}

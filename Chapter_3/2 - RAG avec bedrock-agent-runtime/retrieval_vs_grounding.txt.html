@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px Arial; color: #011628; background-color: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 20.0px Arial; color: #011628; background-color: #ffffff}
+    li.li3 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px Arial; color: #011628}
+    span.s1 {font-kerning: none}
+    span.s2 {background-color: #ffffff}
+    span.s3 {font-kerning: none; background-color: #ffffff}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">Le <i>retrieval</i> et le <i>re-ranking</i> sont deux étapes consécutives et complémentaires dans le pipeline d'une application d'intelligence artificielle générative (GenAI). </span></p>
+<p class="p2"><span class="s1">Retrieval (Recherche)</span></p>
+<p class="p1"><span class="s1">Le <i>retrieval</i> est la première phase, où le système récupère rapidement un grand nombre de documents ou de morceaux d'information potentiellement pertinents à partir d'une vaste base de données, en se basant sur la requête de l'utilisateur. </span></p>
+<ul class="ul1">
+  <li class="li3"><span class="s2"><b></b></span><span class="s3"><b>Objectif</b> : Maximiser le rappel (le nombre de documents pertinents trouvés), souvent au détriment d'une précision fine. Il s'agit de ne pas manquer les documents importants, même s'ils sont mélangés avec d'autres moins pertinents.</span></li>
+  <li class="li3"><span class="s2"><b></b></span><span class="s3"><b>Fonctionnement</b> : On utilise des méthodes rapides et scalables comme la recherche vectorielle (avec des <i>embeddings</i> qui capturent le sens sémantique) ou la recherche par mots-clés (comme BM25).</span></li>
+  <li class="li3"><span class="s2"><b></b></span><span class="s3"><b>Exemple</b> : Un système RAG (Génération Augmentée par la Recherche) cherche dans une base de données vectorielle et extrait, par exemple, les 100 documents les plus proches sémantiquement de la requête de l'utilisateur. </span></li>
+</ul>
+<p class="p2"><span class="s1">Re-ranking (Reclassement)</span></p>
+<p class="p1"><span class="s1">Le <i>re-ranking</i> est la deuxième phase. Il prend l'ensemble de documents déjà récupérés lors de l'étape de <i>retrieval</i> et les réordonne pour placer les plus pertinents en tête de liste. </span></p>
+<ul class="ul1">
+  <li class="li3"><span class="s2"><b></b></span><span class="s3"><b>Objectif</b> : Maximiser la précision (le nombre de documents vraiment pertinents en haut de la liste). Il affine la pertinence de l'ordre, ce qui est crucial pour la qualité de la réponse générée.</span></li>
+  <li class="li3"><span class="s2"><b></b></span><span class="s3"><b>Fonctionnement</b> : On utilise un modèle de classement plus sophistiqué et plus lent, comme un <i>cross-encoder</i>, qui évalue la pertinence en analysant conjointement la requête et chaque document récupéré. Le modèle comprend ainsi les nuances sémantiques plus complexes.</span></li>
+  <li class="li3"><span class="s2"><b></b></span><span class="s3"><b>Exemple</b> : Après le <i>retrieval</i> des 100 documents, le <i>re-ranking</i> les réévalue pour identifier les 3 à 5 documents les plus pertinents à fournir au modèle génératif. </span></li>
+</ul>
+</body>
+</html>
