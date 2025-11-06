@@ -1,10 +1,8 @@
 # L'essentiel d'Amazon Bedrock
 
-Ce dossier Repository est lié au cours `L'essentiel d'Amazon Bedrock`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier repository est lié au cours `L'essentiel d'Amazon Bedrock`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Nom final de la formation][lil-thumbnail-url] 
-
-La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C'est pourquoi ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. 
 
 Que vous soyez débutant en cloud, passionné d’IA ou développeur confirmé, cette formation vous guide pas à pas dans l’exploration d’Amazon Bedrock et de son riche catalogue de modèles (Claude, Llama, Mistral, Titan, etc.). Vous apprendrez à tester rapidement vos prompts, appeler les API en Python, orchestrer vos flux avec LangChain, concevoir une approche RAG pour des réponses contextualisées et créer une interface Streamlit pour vos démonstrations. Animée par Jean Sébastien Mambou, docteur en informatique et architecte cloud, cette formation vous permet de transformer vos idées en mini-applications GenAI fonctionnelles, tout en intégrant bonnes pratiques de sécurité, gestion des coûts et nettoyage des ressources.
 
@@ -30,14 +28,12 @@ Afin de résoudre ce souci, vous devez :
 	Rajouter les changements au git en utilisant la commande : git add .
 	Enregistrer les changements avec la commande : git commit -m "message de votre choix"
 
-
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
    - [Liste des logiciels/dépendances utiles à la formation] 
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. [Instructions spécifiques au cours] 
-
 
 ### Formateur
 
