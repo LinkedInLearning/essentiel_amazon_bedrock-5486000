@@ -8,32 +8,83 @@ Que vous soyez débutant en cloud, passionné d’IA ou développeur confirmé, 
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
+Le dossier Repository contient différents dossiers correspondant aux chapitres avec exercices.
+Dans chaque dossier de chapitre, vous trouverez une série de sous-dossiers associés aux vidéos.
+À l’intérieur de chacun de ces sous-dossiers, un fichier README.md est présent et fournit les instructions nécessaires pour réaliser l’exercice.
 
-## Branches
+### la structure
 
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+```
+.
+├── 01_Verifier l'acces a AWS via python3
+│   ├── README.md
+│   ├── solutions
+│   │   └── test_identity.py
+│   └── test_identity.py
+├── 02_Comparer des prompts
+│   ├── compare_prompts.py
+│   ├── README.md
+│   └── solutions
+│       └── compare_prompts.py
+├── 03_introduction_a_LangChain
+│   ├── chain_example.py
+│   └── README.md
+├── 04_Flux de travail LangChain simple
+│   └── from_playground.py
+└── 05_Defi_ Premier appel Claude via boto3
+    ├── README.md
+    ├── solutions
+    │   └── tests.py
+    └── translate.py
+```
 
-Lorsque vous passez d’une branche des fichiers d’exercice à une autre après avoir fait des modifications, il est possible que vous ayez un message d’erreur similaire à : 
-
-	error: Your local changes to the following files would be overwritten by checkout:        [files]
-	Please commit your changes or stash them before you switch branches.
-	Aborting
-
-Afin de résoudre ce souci, vous devez :
-
-	Rajouter les changements au git en utilisant la commande : git add .
-	Enregistrer les changements avec la commande : git commit -m "message de votre choix"
 
 ## Installation
 
-1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
-2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
+### Créer un environnement Python et installer les dépendances
+
+Ce guide explique comment mettre en place un environnement Python isolé et installer les bibliothèques nécessaires à partir du fichier `requirements.txt`.
+
+### Étapes
+
+1. Vérifier l’installation de Python :  
+   ```bash
+   python --version
+   # ou
+   python3 --version
+   ```
+
+2. Créer un environnement virtuel :  
+
+   ```bash
+   python -m venv venv
+   ```
+
+3. Activer l’environnement virtuel :  
+   - **Windows (PowerShell)** : `venv\Scripts\Activate.ps1`  
+   - **Windows (CMD)** : `venv\Scripts\activate.bat`  
+   - **macOS / Linux** : `source venv/bin/activate`
+
+4. Installer les dépendances :  
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Vérifier l’installation :  
+
+   ```bash
+   pip list
+   ```
+
+6. Désactiver l’environnement virtuel (si besoin) :  
+
+   ```bash
+   deactivate
+   ```
+
+Vous disposez maintenant d’un environnement Python isolé avec toutes les dépendances nécessaires pour exécuter le projet.
+
 
 ### Formateur
 
