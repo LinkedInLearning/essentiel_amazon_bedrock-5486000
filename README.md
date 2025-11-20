@@ -12,11 +12,11 @@ Le dossier (Repository) contient différents dossiers correspondant aux chapitre
 Dans chaque dossier de chapitre, vous trouverez une série de sous-dossiers associés aux vidéos.
 À l’intérieur de chacun de ces sous-dossiers, un fichier README.md est présent et fournit les instructions nécessaires pour réaliser l’exercice.
 
-### la structure
+### La structure
 
 ```
 .
-├── 01_Verifier l'acces a AWS via python3
+├── 01_Vérifier l'accès à AWS via Python3
 │   ├── README.md
 │   ├── solutions
 │   │   └── test_identity.py
