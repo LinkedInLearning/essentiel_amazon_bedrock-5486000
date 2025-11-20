@@ -1,6 +1,6 @@
 # L'essentiel d'Amazon Bedrock
 
-Ce dossier repository est lié au cours `L'essentiel d'Amazon Bedrock`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier (repository) est lié au cours `L'essentiel d'Amazon Bedrock`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Nom final de la formation][lil-thumbnail-url] 
 
@@ -8,7 +8,7 @@ Que vous soyez débutant en cloud, passionné d’IA ou développeur confirmé, 
 
 ## Instructions
 
-Le dossier Repository contient différents dossiers correspondant aux chapitres avec exercices.
+Le dossier (Repository) contient différents dossiers correspondant aux chapitres avec exercices.
 Dans chaque dossier de chapitre, vous trouverez une série de sous-dossiers associés aux vidéos.
 À l’intérieur de chacun de ces sous-dossiers, un fichier README.md est présent et fournit les instructions nécessaires pour réaliser l’exercice.
 
